@@ -11,7 +11,7 @@ function Contact() {
           Add your details to learn more about the Ventrae difference: high-performing teams delivering exceptional client service.
         </p>
       </div>
-      <img src={image} class="contact-bg-image" alt="" />
+      <img src={image} className="contact-bg-image" alt="" />
 
       <form>
         <input type="text" name="name" id="name" placeholder="Name" />
@@ -20,7 +20,7 @@ function Contact() {
         </select>
         <input type="text" name="name" id="name" placeholder="Subject" />
         <textarea name="textarea" className="textarea" placeholder="Message"></textarea>
-        <button className='form-btn'>SEND <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        <button className='form-btn'>SEND <i className="fa fa-chevron-right" aria-hidden="true"></i></button>
       </form>
       
     </section>
