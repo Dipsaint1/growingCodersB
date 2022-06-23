@@ -3,3 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+main{
+  max-width: 1400px;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.main-image{
+  position: absolute;
+  right: 0;
+}

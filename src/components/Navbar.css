@@ -1,0 +1,39 @@
+header{
+  width: 1440px;
+  height: 100px;
+  /* display: flex; */
+}
+
+.header-container{
+  display: grid;
+  /* width: 100%; */
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: auto; */
+  align-items: center;
+  justify-items: center;
+  height: 100px;
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+  background-color: red;
+
+}
+.logo-container{
+  /* flex-basis */
+}
+
+.navbar{
+  position: relative;
+}
+
+.navbar li {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.navbar li .nav-links{
+  text-decoration: none;
+}
+.navbar li .nav-links:hover{
+  
+}
